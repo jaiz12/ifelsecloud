@@ -1,0 +1,61 @@
+h1{
+    margin: 9px;
+}
+.w-100{
+    width: 70%;
+    font-family: Arial, 'Font Awesome 5 Free'
+}
+input[type=text] {
+    width: 70%;
+  box-sizing: border-box;
+  border: none;
+  border-radius: 15px;
+  font-size: 13px;
+  background-color: #f3f4f6;
+  background-image: url('../../assets/image/searchicon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+.icon-box{
+    box-sizing: border-box;
+  border: 2px solid #f0eeee;
+  border-radius: 10px;
+  padding: 10px 14px 10px 14px;
+  margin-right: 1rem;
+  background: #fff;
+}
+  
+.circle1{
+    border-radius: 50%;
+  background-color: #000034;
+  position: absolute;
+  top: 38px;
+  width: 12px;
+  font-size: 10px;
+  padding: 2px;
+  color: #fff;
+  text-align: center;
+  right: 9.2rem;
+}
+.circle2{
+    border-radius: 50%;
+  background-color: #000034;
+  position: absolute;
+  top: 38px;
+  width: 12px;
+  font-size: 10px;
+  padding: 2px;
+  color: #fff;
+  text-align: center;
+  right: 4.8rem;
+}
+.float-right{
+    float: right;
+}
+
+.fa-regular{
+    color:#aaa7a7;
+    font-size: 20px;
+}

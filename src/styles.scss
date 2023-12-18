@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files */
+body{
+    font-family: poppins, sans-serif;
+    color:#253382;
+    background-color: #f5f5f5;
+}
+
+
+.ngx-pagination .current{
+    background: #253382 !important;
+    border-radius:12px;
+  }
+
+  .ngx-pagination .pagination-previous a::before, .ngx-pagination .pagination-previous.disabled::before {
+    content: "\ab";
+    display: inline-block;
+    margin-right: 0;
+    font-size: 23px;
+    margin-top: -4px;
+  }
+
+
+  .ngx-pagination .pagination-next a::after, .ngx-pagination .pagination-next.disabled::after {
+    content: "\bb";
+    display: inline-block;
+    margin-right: 0;
+    font-size: 23px;
+    margin-top: -4px;
+  }
+  .ngx-pagination a:hover, .ngx-pagination button:hover {
+    background: #e6e6e6;
+    border-radius: 12px;
+  }

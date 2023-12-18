@@ -1,0 +1,168 @@
+.icon-box {
+    box-sizing: border-box;
+  border: 2px solid #f0eeee;
+  border-radius: 10px;
+  padding: 9px 12px 9px 12px;
+  margin-right: .3rem;
+  background: #fff;
+  }
+
+  .flex-container{
+    background: #fff;
+  padding: 23px;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  }
+
+  h2{
+    margin: 9px;
+}
+h4{
+    margin-top: 6px;
+}
+h5{
+    margin-top: 0px;
+    margin-bottom: 0px;
+
+}
+
+.text-align-right{
+    text-align: right;
+}
+
+span{
+    color: #9b9b9b;
+    font-size: 14px;
+}
+
+img{
+    width: 100%;
+}
+.image-shadow{
+    width: 84%;
+  height: 3rem;
+  background: #eee;
+  margin-left: 2rem;
+  margin-top: -1.9rem;
+  border-radius: 2rem;
+}
+
+.new-card{
+    background: #fff;
+  border-style: dashed;
+  border-radius: 10px;
+  width: 100%;
+  margin-top: 2rem;
+  padding: 1.2rem;
+  font-size: 16px;
+  font-weight: bold;
+  color: #253382;
+  font-family: poppins, sans-serif;
+}
+
+.fa{
+    color: #fff;
+  background: #253382;
+  padding: 5px;
+  border-radius: 50%;
+  margin-right:.5rem;
+}
+
+hr{
+    border: 1px solid #f0eeee;
+}
+.margin-top{
+    margin-top: 2rem;
+}
+
+.margin-bottom{
+    margin-bottom: 2rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.quick-action-body{
+    border: 2px solid #f0eeee;
+  border-radius: 12px;
+  padding: 1.5rem;
+}
+
+.quick-action-icons{
+    background-color: #fff;
+    border: none;
+    color: #253382;
+}
+.quick-icon{
+    font-size: 1.8rem;
+    color: #253382;
+    margin-bottom: 1rem;
+}
+
+
+.border-right{
+    border-right: 2px solid #f0eeee;
+}
+
+label{
+    font-family: proxima-nova, sans-serif;
+  font-weight: 515;
+}
+
+.remove-border{
+    border: none;
+    margin-top: 11px;
+}
+
+.icon-box{
+    box-sizing: border-box;
+    border: 2px solid #f0eeee;
+    border-radius: 10px;
+    padding: 10px 15px 10px 15px;
+    margin-right: 5px;
+    background: #fff;
+    text-align: center;
+}
+
+.fa-saving{
+    color: #253382;
+  font-size: 20px;
+}
+
+.fa-ellipsis{
+margin-top: 1.5rem;
+}
+
+.progress-bar-full{
+    height: .4rem;
+  width: 100%;
+  background-color: #f0eeee;
+  border-radius: 14px;
+  margin-top: .5rem;
+}
+
+.progress-bar-half{
+    height: .4rem;
+  width: 50%;
+  background-color: #253382;
+  border-radius: 14px;
+}
+
+.saving-plan-icon-box{
+    box-sizing: border-box;
+  border: 2px solid #f0eeee;
+  border-radius: 10px;
+  padding: 20px 15px 20px 15px;
+  margin-right: .5rem;
+  background: #fff;
+  text-align: center;
+}
+
+.fa-left {
+  transform: rotate(-90deg);
+}
+
+.fa-right {
+  transform: rotate(90deg);
+}

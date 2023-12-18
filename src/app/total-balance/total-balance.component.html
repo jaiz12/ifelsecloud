@@ -1,0 +1,26 @@
+<section class="flex-container">
+  <div class="row">
+    <div class="col-lg-10">
+      <h2>Total Balance</h2>
+    </div>
+    <div class="col-lg-2 text-align-right">
+      <i class="fa-solid fa-ellipsis"></i>
+    </div>
+    <div class="col-lg-12">
+      <h1>${{totalBalance.total_balance}}</h1>
+      <div class="progress-bar-full ">
+      <div class="progress-bar-half"  [ngStyle]="{'width': totalBalance.payment_done_percentage +'%'}"></div>
+      </div>
+      <div class="row">
+        <div class="col-lg-8">
+          <h4><span>Monthly Payment Limit</span></h4>
+        </div>
+        <div class="col-lg-4 text-align-right">
+          <h4>${{totalBalance.payment_done_so_far}}/<span>${{totalBalance.monthly_payment_limit}}</span></h4>
+        </div>
+        
+      </div>
+    </div>
+    
+  </div>
+</section>

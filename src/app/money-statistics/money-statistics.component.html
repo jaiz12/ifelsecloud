@@ -1,0 +1,60 @@
+<section class="flex-container">
+     
+      <div class="row">
+        <div class="col-lg-9">
+          <h2>Money Statistic</h2>
+        </div>
+        <div class="col-lg-2 text-align-right">
+          <select>
+            <option value="1" selected>Monthly</option>
+            <option value="2">Yearly</option>
+          </select>
+        </div>
+        <div class="col-lg-1 text-align-right">
+          <i class="fa-solid fa-ellipsis"></i>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-4 border-right">
+          <div class="row text-center">
+            <div class="col-lg-12">
+              <h4><span>Total Income</span></h4>
+            </div>
+            <div class="col-lg-12">
+              <h1>${{moneyStatistics.total_income.value}}</h1>
+            </div>
+            <div class="col-lg-12">
+              <span [ngStyle]="{'color': moneyStatistics.total_income.trend_color}"><i class="fa-solid fa-arrow-trend-up"></i> + %{{moneyStatistics.total_income.trend}}</span> <span> from last month</span>
+            </div>
+          </div>         
+        </div>
+        <div class="col-lg-4 border-right">
+          <div class="row text-center">
+            <div class="col-lg-12">
+              <h4><span>Total Expense</span></h4>
+            </div>
+            <div class="col-lg-12">
+              <h1>${{moneyStatistics.total_expense.value}}</h1>
+            </div>
+            <div class="col-lg-12">
+              <span [ngStyle]="{'color': moneyStatistics.total_expense.trend_color}"><i class="fa-solid fa-arrow-trend-up"></i> + %{{moneyStatistics.total_expense.trend}}</span> <span> from last month</span>
+            </div>
+          </div>      
+        </div>
+        <div class="col-lg-4">
+          <div class="row text-center">
+            <div class="col-lg-12">
+              <h4><span>Total Investment</span></h4>
+            </div>
+            <div class="col-lg-12">
+              <h1>${{moneyStatistics.total_investment.value}}</h1>
+            </div>
+            <div class="col-lg-12">
+              <span [ngStyle]="{'color': moneyStatistics.total_investment.trend_color}"><i class="fa-solid fa-arrow-trend-up"></i> + %{{moneyStatistics.total_investment.trend}}</span> <span> from last month</span>
+            </div>
+          </div>      
+        </div>
+      </div>
+      <div class="margin-top" id="chart-column"></div>
+
+</section>
